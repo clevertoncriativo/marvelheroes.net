@@ -22,7 +22,7 @@ http://marvelheroes.wise2b.com.br/
 
 <p>Namespace que encapsula os clients que fazem os requests segundo as necessidades</p>
 <p>Método exemplo:</p>
-<p><b>IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</b></p>
+<p><b>public IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</b></p>
 <p>retorna os characters(personagens) mediante os fitros informados</p>
  
 <p><b>name</b> => nome do personagem(deve ser o nome idêntico</p>
