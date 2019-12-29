@@ -14,8 +14,8 @@ namespace marvelheroes.net.Common.Clients
     public class MarvelClient
     {
         private readonly string _baseUrl = "http://gateway.marvel.com/v1/public/";
-        private readonly string _privateKey = "2f0790c794257024b302cad1eccca1827c433077";
-        private readonly string _publicKey = "516ca093fc5f91cf30d467b140987746";
+        private readonly string _privateKey = "";
+        private readonly string _publicKey = "";
 
         /// <summary>
         /// Busca os characters(personagens) segundo os filtros aceitos
