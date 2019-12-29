@@ -17,6 +17,15 @@ namespace marvelheroes.net.Common.Clients
         private readonly string _privateKey = "2f0790c794257024b302cad1eccca1827c433077";
         private readonly string _publicKey = "516ca093fc5f91cf30d467b140987746";
 
+        /// <summary>
+        /// Busca os characters(personagens) segundo os filtros aceitos
+        /// </summary>
+        /// <param name="parameters">Parâmetros key do dicionário</param>
+        /// <param name="name">name - nome do personagem(deve ser o nome idêntico</param>
+        /// <param name="nameStartsWith">nameStartsWith - nome do personagem pode conter apenas as inciais, ex: iron</param>
+        /// <param name="limit">limit - número de páginas que devem retonar</param>
+        /// <param name="offset">offset - quantidade de itens por página</param>        
+        /// <returns></returns>
         public IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)
         {
             if (parameters is null)
@@ -60,6 +69,11 @@ namespace marvelheroes.net.Common.Clients
             return charactersResult;
         }
 
+        /// <summary>
+        /// Retorna as histórias do character(personagem) segundo o identificador informado.
+        /// </summary>
+        /// <param name="characterId"></param>
+        /// <returns></returns>
         public IEnumerable<Story> FindStoriesByCharacters(string characterId)
         {
             if (string.IsNullOrWhiteSpace(characterId))
@@ -99,6 +113,13 @@ namespace marvelheroes.net.Common.Clients
             return storiesResults;
         }
 
+        /// <summary>
+        /// Gera o hash que deve ser informado nas consultas da Marvel API
+        /// </summary>
+        /// <param name="ts">timestamp que deve ser o mesmo informado na url de requisição</param>
+        /// <param name="publicKey">chave publicada da marvel api</param>
+        /// <param name="privateKey">chave privada da marvel api</param>
+        /// <returns></returns>
         private string GetHash(string ts, string publicKey, string privateKey)
         {
             using (MD5 gerador = MD5.Create())
