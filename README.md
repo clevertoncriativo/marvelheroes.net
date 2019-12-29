@@ -4,7 +4,7 @@ marvelheroes é um projeto de consulta a https://developer.marvel.com/docs
 
 <h2>Demo</h2>
 
-http://marvelheroes.wise2b.kinghost.net/
+http://marvelheroes.wise2b.com.br/
 
 <h2>Requerimentos</h2>
 
