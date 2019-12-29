@@ -21,8 +21,8 @@ http://marvelheroes.wise2b.kinghost.net/
 <p>_publicKey => chave publica da Marvel APIy<p>
 
 <p>Namespace que encapsula os clients que fazem os requests segundo as necessidades</p>
-<p>Exemplo:</p>
-<p>IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</p>
+<p>Método exemplo:</p>
+<p><b>IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</b></p>
 <p>retorna os characters(personagens) mediante os fitros informados</p>
  
 <p>name - nome do personagem(deve ser o nome idêntico</p>
