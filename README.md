@@ -14,7 +14,7 @@ http://marvelheroes.wise2b.kinghost.net/
 </ul>
 
 <h2>marvelheroes.net.common</h2>
-<h4>Projeto que contem as funções do sistema</h4>
+<h4>Solution que contem as funções do sistema</h4>
 <h4>namespace marvelheroes.net.Common.Clients</h4>
 
 <p>_privateKey => chave privada da Marvel API<p>
