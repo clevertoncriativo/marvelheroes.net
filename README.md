@@ -25,9 +25,9 @@ http://marvelheroes.wise2b.com.br/
 <p><b>IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</b></p>
 <p>retorna os characters(personagens) mediante os fitros informados</p>
  
-<p>name - nome do personagem(deve ser o nome idêntico</p>
-<p>nameStartsWith - nome do personagem pode conter apenas as inciais, ex: iron</p>
-<p>limit - número de páginas que devem retonar</p>	
-<p>offset - quantidade de itens por página</p>	
+<p><b>name</b> => nome do personagem(deve ser o nome idêntico</p>
+<p><b>nameStartsWith</b> => nome do personagem pode conter apenas as inciais, ex: iron</p>
+<p><b>limit</b> => número de páginas que devem retonar</p>	
+<p><b>offset</b> => quantidade de itens por página</p>	
 
-<p>IEnumerable<Character> FindCharacters(Dictionary<string, string> parameters)</p>
+
