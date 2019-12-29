@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "marvelheroes.net", "marvelheroes.net\marvelheroes.net.csproj", "{98EDBF99-9FC6-4F45-B511-DF966EAC947B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "marvelheroes.net.Common", "marvelheroes.net.Common\marvelheroes.net.Common.csproj", "{CC35B5D8-FAF0-4AD5-AB85-8E05701AEAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EDBF99-9FC6-4F45-B511-DF966EAC947B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EDBF99-9FC6-4F45-B511-DF966EAC947B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EDBF99-9FC6-4F45-B511-DF966EAC947B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EDBF99-9FC6-4F45-B511-DF966EAC947B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC35B5D8-FAF0-4AD5-AB85-8E05701AEAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC35B5D8-FAF0-4AD5-AB85-8E05701AEAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC35B5D8-FAF0-4AD5-AB85-8E05701AEAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC35B5D8-FAF0-4AD5-AB85-8E05701AEAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F1C2BE-5F73-4629-87D4-CF0F53DABDC9}
+	EndGlobalSection
+EndGlobal
